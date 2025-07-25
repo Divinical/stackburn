@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebKit Debug Test</title>
+    <style>
+        body { 
+            background: #ff0000; 
+            color: white; 
+            font-size: 32px; 
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 WEBKIT TEST 🔥</h1>
+    <p>RED SCREEN = WebKit Loading Works</p>
+    <p id="js-test">JavaScript Loading...</p>
+    <script>
+        console.log("JavaScript executed successfully");
+        document.getElementById('js-test').textContent = 'JavaScript Works!';
+        document.body.style.border = '10px solid yellow';
+    </script>
+</body>
+</html>

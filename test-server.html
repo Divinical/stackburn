@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webview Test</title>
+    <style>
+        body { 
+            background: #ff0000; 
+            color: white; 
+            font-size: 48px; 
+            text-align: center;
+            padding: 50px;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 WEBVIEW WORKING! 🔥</h1>
+    <p>Red screen means webview can load localhost</p>
+    <script>
+        console.log("JavaScript working in webview");
+        document.body.innerHTML += "<p>JS executed at " + new Date().toISOString() + "</p>";
+    </script>
+</body>
+</html>

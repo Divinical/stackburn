@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tauri Test</title>
+    <style>
+        body {
+            background: #1a1a1a;
+            color: white;
+            font-family: monospace;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minimal Tauri Test</h1>
+    <p>If you see this, basic HTML loading works</p>
+    <p id="time"></p>
+    <script>
+        console.log("Script loaded");
+        document.getElementById('time').textContent = new Date().toLocaleTimeString();
+        setInterval(() => {
+            document.getElementById('time').textContent = new Date().toLocaleTimeString();
+        }, 1000);
+    </script>
+</body>
+</html>

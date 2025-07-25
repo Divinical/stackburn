@@ -1,0 +1,95 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tauri
+src-tauri/target/
+src-tauri/WixTools/
+src-tauri/Cargo.lock
+
+# Production builds
+src-tauri/*.exe
+src-tauri/*.msi
+src-tauri/*.app
+src-tauri/*.dmg
+src-tauri/*.deb
+src-tauri/*.AppImage
+src-tauri/*.rpm
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys and Secrets (CRITICAL: Never commit these!)
+**/drive_scanner.rs.local
+oauth_credentials.json
+*.pem
+*.key
+*secret*
+*credentials*
+*.token
+.google_credentials.json
+github_token.txt
+api_keys.json
+
+# OAuth and Authentication files
+**/oauth/
+**/auth/
+access_token.json
+refresh_token.json
+
+# Test coverage
+coverage
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
